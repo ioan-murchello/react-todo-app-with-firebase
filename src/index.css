@@ -1,0 +1,21 @@
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,regular,500,600,700,800,900);
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html,
+body,
+#root {
+  height: 100%; 
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+.custom-drop-shadow {
+  filter: drop-shadow(0 35px 35px rgba(190, 28, 77));
+  -webkit-filter: drop-shadow(0 35px 35px rgba(190, 28, 77));
+}
